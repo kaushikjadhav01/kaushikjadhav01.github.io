@@ -1,9 +1,9 @@
 // set typing speed and wait times
-var timeInit = 1500; // initial wait before typing first line
-var timeGap = 1000; // wait time between each line
+var timeInit = 40; // initial wait before typing first line
+var timeGap = 40; // wait time between each line
 var timeChar = 40; // time until next letter
 var cursorChar = '&#9608;';
-var originId = ['line1', 'line2', 'line3', 'line4', 'line5', 'line6', 'line7', 'line8'];
+var originId = ['line1', 'line2', 'line3', 'line4', 'line5', 'line6'];
 var originText = new Array();
 for (var i = 0; i < originId.length; i++) {
     originText.push(document.getElementById(originId[i]).innerHTML);
