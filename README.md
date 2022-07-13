@@ -1,7 +1,7 @@
 # kaushikjadhav01.github.io
 Repository for my online <b>Portfolio</b> website created using <b>HTML5</b>, <b>Bootstrap4</b>, <b>JavaScript</b> and <b>JQuery</b> and hosted on <b>Github Pages</b>
 
-<h4> Check out my portfolio live at: https://kaushikjadhav01.github.io/ </h4>
+<h4> Check out my portfolio live at: https://kajadhav.github.io/ </h4>
 
 # Check out a few of my works at:
 https://github.com/kaushikjadhav01/Medicine-Data-Portal__Data-Reporting-Tool<br>
