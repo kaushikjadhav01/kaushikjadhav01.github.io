@@ -92,6 +92,20 @@ h6 {
   -moz-filter: sepia(100%) brightness(118%) hue-rotate(177deg) saturate(334%)
     contrast(71%) invert(100%);
 }
+
+.spinner {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-left: -50px;
+  margin-top: -100px;
+  width: 100px;
+  height: 100px;
+  text-align: center;
+  font-size: 10px;
+  z-index: 9999;
+}
+
 @media (min-width: 1500px) {
   .container,
   .container-lg,

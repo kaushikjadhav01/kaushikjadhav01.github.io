@@ -24,7 +24,7 @@ const Home = ({countData}) => {
           <Row className="home-row">
             <Col md={8}>
               <motion.div className="intro-section">
-                <motion.h5 variants={titleAnim} className="mb-2">
+                <motion.h6 variants={titleAnim} className="mb-2">
                 <img
                   placeholder="/images/companies.gif"
                   src="/images/companies.gif"
@@ -33,7 +33,7 @@ const Home = ({countData}) => {
                   max-width="45%"
                   id="companies"
                 />
-                <h6 className="mb-4" style={{color:"white"}}>{" Portfolio Visits "}<RemoveRedEyeIcon/>{" "}{countData}</h6>
+                <p className="mb-3" style={{color:"white"}}>{" Portfolio Visits "}<RemoveRedEyeIcon/>{" "}{countData}</p>
                 <p align="left">
                   <a href="https://github.com/kaushikjadhav01/kaushikjadhav01">
                     <img src="https://komarev.com/ghpvc/?username=kaushikjadhav01&color=red" alt="profile views" />{" "}
@@ -51,7 +51,7 @@ const Home = ({countData}) => {
                     <img alt="Linkedin followers" src="https://img.shields.io/badge/followers-1.1K-blue?color=blue&logo=linkedin"/>{" "}
                   </a>
                 </p>
-                </motion.h5>
+                </motion.h6>
                 <motion.h1 variants={titleAnim} className="mb-4">
                   Hi, I'm <span className="chonburi-font green-text">Kaushik</span> {" "} Jadhav
                 </motion.h1>
