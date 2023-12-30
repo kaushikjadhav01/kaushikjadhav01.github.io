@@ -31,12 +31,12 @@ const TyperAnimation = () => {
                             >> Ready to meet Kaushik?\n
                             >> Presenting, Me!
                             `,
-                            2000,
+                            1000,
                             () => {
                                 setAnimationComplete(true);
                             },
                         ]}
-                        speed={68}
+                        speed={70}
                     />
             </div>
         </div>
