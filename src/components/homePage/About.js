@@ -193,7 +193,7 @@ const About = () => {
                         <h5><b>North Carolina State University, NC, USA</b></h5>
                         <p className="text-justify">
                           <b>Master of Computer Science</b><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;August 2022 - May 2024</span><br/>
-                          <a href="https://kajadhav.me">
+                          <a href="https://kaushikjadhav01.github.io">
                             <img alt="Portfolio" src="https://img.shields.io/badge/CGPA-3.8/4.0-success?color=success&logo=readme" width="20%"></img>
                           </a>
                           <br/>
@@ -204,7 +204,7 @@ const About = () => {
                         <h5><b>University of Mumbai, Mumbai, MH, India</b></h5>
                         <p className="text-justify">
                             <b>Bachelor of Engineering (Information Technology)</b><span>&nbsp;&nbsp;August 2016 - July 2020</span><br/>
-                            <a href="https://kajadhav.me">
+                            <a href="https://kaushikjadhav01.github.io">
                               <img alt="Portfolio" src="https://img.shields.io/badge/CGPA-9.07/10.0_or_3.8/4.0-success?color=success&logo=readme" width="32%"></img>
                             </a>
                             <br/>
