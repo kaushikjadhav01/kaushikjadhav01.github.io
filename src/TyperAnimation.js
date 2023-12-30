@@ -31,7 +31,7 @@ const TyperAnimation = () => {
                             >> Ready to meet Kaushik?\n
                             >> Presenting, Me!
                             `,
-                            1000,
+                            100,
                             () => {
                                 setAnimationComplete(true);
                             },
