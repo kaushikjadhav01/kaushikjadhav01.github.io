@@ -9,14 +9,28 @@ import Img from "react-cool-img";
 
 const myProjects = [
   {
-    // image: "/images/image_name.jpg",
-    // title: "Title",
-    // description:
-    //   "Desc",
-    // source: "",
-    // demoLink: "link",
-    // badge: "ReactJS",
-    // liveweb: "hlink",
+    image: "/images/mdp.png",
+    title: "Medicine Data Portal",
+    description:
+      "Data Reporting Portal to help thousands of partner companies simultaneously edit business reports with 500k rows of huge data with real-time messaging with AWS, Python, Django, React, NodeJS and PostgreSQL.",
+    source: "https://github.com/kaushikjadhav01/Medicine-Data-Portal__Data-Reporting-Tool",
+    demoLink: "http://mdp.kajadhav.me/"
+  },
+  {
+    image: "/images/stock.png",
+    title: "Stock Market Prediction",
+    description:
+      "The App forecasts stock prices of the next seven days for any given stock under NASDAQ or NSE as input by the user. Predictions are made using three algorithms: ARIMA, LSTM, Linear Regression.",
+    source: "https://github.com/kaushikjadhav01/Stock-Market-Prediction-Web-App-using-Machine-Learning-And-Sentiment-Analysis",
+    demoLink: "https://www.youtube.com/"
+  },
+  {
+    image: "/images/bookmart.png",
+    title: "BookMart",
+    description:
+      "Online Book Shopping System class project using Ruby on Rails. Made using Ruby on Rails Javascript mysql docker html css bootstrap. It is a web application that allows users to browse through books and purchase them.",
+    source: "https://github.com/kaushikjadhav01/BookMart",
+    demoLink: "http://bookmart.kajadhav.me/"
   }
 ];
 

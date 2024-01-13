@@ -128,20 +128,39 @@ h6 {
 
   #skills-container{
     opacity: 1 !important;
-    transform: scale(0.7) !important;
-    margin-top: -400px !important;
-    margin-bottom: -460px !important;
+    transform: scale(0.6) !important;
+    margin-top: -480px !important;
+    margin-bottom: -540px !important;
+    margin-left: -20px !important;
   }
+
+  #skills-span, #github-stats-span{
+    font-size: 65px !important;
+  }
+
   #github-stats-container{
     opacity: 1 !important;
-    transform: scale(0.5) !important;
-    margin-top: -620px !important;
-    margin-left: -120px !important;
-    margin-bottom: -500px !important;
+    transform: scale(0.4) !important;
+    margin-top: -650px !important;
+    margin-left: -100px !important;
+    margin-bottom: -520px !important;
   }
   #companies{
     transform: scale(1.5) !important;
     margin-left: 30% !important;
     margin-bottom: 10% !important;
+  }
+
+  #devcard{
+    transform: scale(0.7) !important;
+  }
+
+  .workex-dates {
+    visibility: hidden;
+    clear: both;
+    float: left;
+    margin: 10px auto 5px 20px;
+    width: 28%;
+    display: none;
   }
 }

@@ -17,7 +17,7 @@ const Skills = () => {
       >
         <div className="heading-section mb-4">
           <h1>
-            <span className="chonburi-font green-text">Skills</span>
+            <span id="skills-span" className="chonburi-font green-text">Skills</span>
           </h1>
         </div>
         <h4><span className="chonburi-font green-text">Programming Languages</span></h4>

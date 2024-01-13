@@ -16,7 +16,7 @@ const GitHub = () => {
         id="github-stats-container"
       >
         <div className="heading-section">
-          <h1>
+          <h1 id="github-stats-span">
             <span className="chonburi-font green-text">Github</span>{" "}Stats
           </h1>
         </div>
