@@ -22,7 +22,7 @@ const About = () => {
         className="container"
       >
         <Row className="">
-          <Col className="p-0 text-center" md={5}>
+          <Col className="p-0 text-center" md={5} id="devcard">
           <a href="https://app.daily.dev/kaushikjadhav01"><img src="https://api.daily.dev/devcards/895c8eecd3614f3d90e7d6fd32a765a2.png?r=1op" width="400" alt="Kaushik Jadhav's Dev Card"/></a>
           </Col>
           <Col className="" md={7}>
@@ -71,7 +71,7 @@ const About = () => {
                   {tab === "experience" ? (
                     <div className="work-experiences">
                       <h5><b>North Carolina State University</b>, Raleigh, NC, USA</h5>
-                      <i>Software Developer (PML Intern)</i><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;November 2022 - Present</span><br/>
+                      <i>Software Developer (PML Intern)</i><span class="workex-dates">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;November 2022 - Present</span><br/>
                       <div className="mt-2">
                         <img alt="Python" src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white"></img>{" "}
                         <img alt="Django" src="https://img.shields.io/badge/Django-20232A?style=for-the-badge&logo=django&logoColor=white"></img>{" "}
@@ -193,7 +193,7 @@ const About = () => {
                         <h5><b>North Carolina State University, NC, USA</b></h5>
                         <p className="text-justify">
                           <b>Master of Computer Science</b><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;August 2022 - May 2024</span><br/>
-                          <a href="https://kaushikjadhav01.github.io">
+                          <a href="https://kajadhav.me">
                             <img alt="Portfolio" src="https://img.shields.io/badge/CGPA-3.8/4.0-success?color=success&logo=readme" width="20%"></img>
                           </a>
                           <br/>
@@ -204,7 +204,7 @@ const About = () => {
                         <h5><b>University of Mumbai, Mumbai, MH, India</b></h5>
                         <p className="text-justify">
                             <b>Bachelor of Engineering (Information Technology)</b><span>&nbsp;&nbsp;August 2016 - July 2020</span><br/>
-                            <a href="https://kaushikjadhav01.github.io">
+                            <a href="https://kajadhav.me">
                               <img alt="Portfolio" src="https://img.shields.io/badge/CGPA-9.07/10.0_or_3.8/4.0-success?color=success&logo=readme" width="32%"></img>
                             </a>
                             <br/>

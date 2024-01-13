@@ -28,8 +28,7 @@ const TyperAnimation = () => {
                             >> Well he's the only person who could win an argument against a brick wall.\n 
                             >> (Spoiler alert: He already has!)\n
                             >> I bet you're smiling right now ;)\n
-                            >> Ready to meet Kaushik?\n
-                            >> Presenting, Me!
+                            >> Let's meet Kaushik!
                             `,
                             100,
                             () => {
