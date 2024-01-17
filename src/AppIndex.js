@@ -57,7 +57,7 @@ class AppIndex extends Component {
   };
 
   render(){
-  if(this.state.isLoading){
+  if(this.state.isLoading && window.location.href.indexOf('#') <= -1){
     console.log(" countData",this.state.countData)       
     return (
     <div className="spinner">
@@ -76,6 +76,9 @@ class AppIndex extends Component {
   }  
   
   else {
+    if(window.location.href.indexOf('#projects') <= -1){
+      document.getElementById('projects')?.scrollIntoView();
+    }
     return (
       <div className="App">
         <HomePage countData = {this.state.countData} />
