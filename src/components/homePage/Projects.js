@@ -22,13 +22,13 @@ const myProjects = [
     description:
       "The App forecasts stock prices of the next seven days for any given stock under NASDAQ or NSE as input by the user. Predictions are made using three algorithms: ARIMA, LSTM, Linear Regression.",
     source: "https://github.com/kaushikjadhav01/Stock-Market-Prediction-Web-App-using-Machine-Learning-And-Sentiment-Analysis",
-    demoLink: "https://www.youtube.com/"
+    demoLink: "https://www.youtube.com/watch?v=xnq7mBdJAJk"
   },
   {
     image: "/images/daisyui.png",
     title: "DaisyUI",
     description:
-      "Contributed to the react components repo of open-source UI library daisyUI. It is a component library for Tailwind CSS. I fixed one broken feature, few package deprecation issues and Angular compatibility issue.",
+      "Contributed to the react components repo of open-source UI library daisyUI. It is a component library for Tailwind CSS. I fixed one broken feature, few package deprecation issues and browser plugins compatibility issues.",
     source: "https://github.com/daisyui/react-daisyui",
     demoLink: "http://react.daisyui.com/"
   },
@@ -179,6 +179,7 @@ const Projects = () => {
                         >
                           Source Code
                         </a>
+                        {project.demoLink?
                         <a rel="noopener noreferrer"
                           href={project.demoLink}
                           className="project-card-btn"
@@ -186,6 +187,7 @@ const Projects = () => {
                         >
                           Live Demo
                         </a>
+                        :null}
                       </div>
                     </div>
                   </div>
