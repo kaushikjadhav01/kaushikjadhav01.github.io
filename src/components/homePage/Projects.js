@@ -62,7 +62,7 @@ const myProjects = [
     description:
       "Very basic Flask App for Cancer Donation Portal using basic Python, SQLite3, HTML, CSS and Javascript. Users can register and log in to their account.",
     source: "https://github.com/kaushikjadhav01/Cancer-Donation-Portal-Python-Flask-App",
-    demoLink: "http://3.23.155.244:8000/"
+    demoLink: "http://3.23.8.111:8000/"
   },
   {
     image: "/images/chatgpt.png",
