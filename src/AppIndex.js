@@ -20,31 +20,33 @@ class AppIndex extends Component {
   }
 
   componentDidMount(){
-  const proxyUrl = 'https://api.codetabs.com/v1/proxy?quest=';
-  fetch(proxyUrl + 'https://komarev.com/ghpvc/?username=kaushikjadhav01')
-    .then(response => response.text())
-    .then(data => {
-      const parser = new DOMParser();
-      const doc = parser.parseFromString(data, 'image/svg+xml');
-      const textContent = doc.querySelectorAll('text')[2].textContent.trim();
-      let localStorageCount = localStorage.getItem("kaushikjadhav01_pagecount");
-      if (!localStorageCount || Number(textContent) > Number(localStorageCount)) {
-        let count = Number(textContent) + Math.floor(Math.random() * (299 - 101 + 1) + 101);
-        localStorage.setItem("kaushikjadhav01_pagecount", count);
-        this.setState({countData:count,status:true});
-        this.setState({isLoading:false});
-      }
-      else {
-        localStorageCount = Number(localStorageCount) + 1;
-        localStorage.setItem("kaushikjadhav01_pagecount", localStorageCount);
-        this.setState({countData:localStorageCount,status:true});
-        this.setState({isLoading:false});
-      }      
-    })
-    .catch(error => {
-      console.error('Error making GET request:', error);
-      this.setState({ isLoading: false });
-    });
+  // const proxyUrl = 'https://api.codetabs.com/v1/proxy?quest=';
+  // fetch(proxyUrl + 'https://komarev.com/ghpvc/?username=kaushikjadhav01')
+  //   .then(response => response.text())
+  //   .then(data => {
+  //     const parser = new DOMParser();
+  //     const doc = parser.parseFromString(data, 'image/svg+xml');
+  //     const textContent = doc.querySelectorAll('text')[2].textContent.trim();
+  //     let localStorageCount = localStorage.getItem("kaushikjadhav01_pagecount");
+  //     if (!localStorageCount || Number(textContent) > Number(localStorageCount)) {
+  //       let count = Number(textContent) + Math.floor(Math.random() * (299 - 101 + 1) + 101);
+  //       localStorage.setItem("kaushikjadhav01_pagecount", count);
+  //       this.setState({countData:count,status:true});
+  //       this.setState({isLoading:false});
+  //     }
+  //     else {
+  //       localStorageCount = Number(localStorageCount) + 1;
+  //       localStorage.setItem("kaushikjadhav01_pagecount", localStorageCount);
+  //       this.setState({countData:localStorageCount,status:true});
+  //       this.setState({isLoading:false});
+  //     }      
+  //   })
+  //   .catch(error => {
+  //     console.error('Error making GET request:', error);
+  //     this.setState({ isLoading: false });
+  //   });
+  this.setState({countData:0,status:true});
+  this.setState({ isLoading: false });
   }
 
   closeTour = () =>{

@@ -33,7 +33,7 @@ const Home = ({countData}) => {
                   max-width="45%"
                   id="companies"
                 />
-                <p className="mb-3" style={{color:"white"}}>{" Portfolio Visits "}<RemoveRedEyeIcon/>{" "}{countData}</p>
+                {/* <p className="mb-3" style={{color:"white"}}>{" Portfolio Visits "}<RemoveRedEyeIcon/>{" "}{countData}</p> */}
                 <p align="left">
                   <a href="https://github.com/kaushikjadhav01/kaushikjadhav01">
                     <img src="https://komarev.com/ghpvc/?username=kaushikjadhav01&color=red" alt="profile views" />{" "}
