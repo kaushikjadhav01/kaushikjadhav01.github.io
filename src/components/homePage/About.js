@@ -71,7 +71,8 @@ const About = () => {
                   {tab === "experience" ? (
                     <div className="work-experiences">
                       <h5><b>North Carolina State University</b>, Raleigh, NC, USA</h5>
-                      <i>Software Developer (PML Intern)</i><span class="workex-dates">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;November 2022 - Present</span><br/>
+                      <i>1. Software Developer (Full Time)</i><span class="workex-dates">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;May 2024 - Present</span><br/>
+                      <i>2. Software Developer (PML Intern)</i><span class="workex-dates">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;November 2022 - May 2024</span><br/>
                       <div className="mt-2">
                         <img alt="Python" src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white"></img>{" "}
                         <img alt="Django" src="https://img.shields.io/badge/Django-20232A?style=for-the-badge&logo=django&logoColor=white"></img>{" "}
