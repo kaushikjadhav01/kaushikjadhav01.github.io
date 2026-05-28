@@ -31,7 +31,7 @@ const About = () => {
                 <span className="chonburi-font green-text ">About</span> Me
               </h1>
               <p className="details">
-              I am a Full Stack Developer with 4.5 yrs of engineering experience specializing in Backend, Dev-Ops and Cloud. 
+              I am a Full Stack Developer with 6 yrs of engineering experience (4 yrs full time, 2 yrs internships) specializing in Backend, Frontend, Dev-Ops and Cloud. 
               I like doing cool things like exploring recent tools in the software industry, writing technical articles on Medium and participating in coding competitions. 
               I have hands-on experience in developing large scale production level apps and my managers have always appreciated me for things like writing “efficient code”, maintaining code quality and documentation standards and meeting aggressive deadlines without sacrificing the quality of work.
               </p>
@@ -71,8 +71,8 @@ const About = () => {
                   {tab === "experience" ? (
                     <div className="work-experiences">
                       <h5><b>North Carolina State University</b>, Raleigh, NC, USA</h5>
-                      <i>1. Software Developer (Full Time)</i><span class="workex-dates">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;May 2024 - Present</span><br/>
-                      <i>2. Software Developer (PML Intern)</i><span class="workex-dates">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;November 2022 - May 2024</span><br/>
+                      <i>1. PHP Web Programmer</i><span class="workex-dates">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;May 2024 - Present</span><br/>
+                      <i>2. Software Developer Intern</i><span class="workex-dates">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;November 2022 - May 2024</span><br/>
                       <div className="mt-2">
                         <img alt="Python" src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white"></img>{" "}
                         <img alt="Django" src="https://img.shields.io/badge/Django-20232A?style=for-the-badge&logo=django&logoColor=white"></img>{" "}
