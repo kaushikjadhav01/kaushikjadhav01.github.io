@@ -71,7 +71,7 @@ const About = () => {
                   {tab === "experience" ? (
                     <div className="work-experiences">
                       <h5><b>North Carolina State University</b>, Raleigh, NC, USA</h5>
-                      <i>1. PHP Web Programmer</i><span class="workex-dates">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;May 2024 - Present</span><br/>
+                      <i>1. PHP Web Programmer</i><span class="workex-dates">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;May 2024 - Present</span><br/>
                       <i>2. Software Developer Intern</i><span class="workex-dates">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;November 2022 - May 2024</span><br/>
                       <div className="mt-2">
                         <img alt="Python" src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white"></img>{" "}
@@ -198,7 +198,7 @@ const About = () => {
                             <img alt="Portfolio" src="https://img.shields.io/badge/CGPA-3.8/4.0-success?color=success&logo=readme" width="20%"></img>
                           </a>
                           <br/>
-                            Courses: Algorithms, Software Engineering, Object Oriented Development, Neural Networks, Network Security, HCI.
+                            Courses: Algorithms, Software Engineering, Object Oriented Development, Network Security, Internet Protocols, Automated Software Engineering, Automated Learning & Data Analysis, Neural Networks, HCI.
                         </p>
                       </div>
                       <div className="mt-4">
