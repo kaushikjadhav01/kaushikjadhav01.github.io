@@ -25,8 +25,8 @@ const TyperAnimation = () => {
                         sequence={[
                             `
                             >> Hmm . . . So you wanna know who Kaushik is?\n
-                            >> Well he's the only person who could win an argument against a brick wall.\n 
-                            >> (Spoiler alert: He already has!)\n
+                            >> Well, he's very good at solving problems.\n 
+                            >> Especially the ones he accidentally created...XD\n
                             >> I bet you're smiling right now ;)\n
                             >> Let's meet Kaushik!
                             `,

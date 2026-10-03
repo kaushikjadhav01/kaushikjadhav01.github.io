@@ -56,7 +56,7 @@ const Home = ({countData}) => {
                   Hi, I'm <span className="chonburi-font green-text">Kaushik</span> {" "} Jadhav
                 </motion.h1>
                 <motion.h3 variants={titleAnim} className="mb-4">
-                PHP Web Programmer @ {" "} <span className="chonburi-font green-text">NCSU</span>
+                Sr. Web App Developer @ {" "} <span className="chonburi-font green-text">NCSU</span>
                 <br/>MS CS @ {" "} <span className="chonburi-font green-text">NCSU</span>
                 <br/>Ex-<span className="chonburi-font green-text">Microsoft</span>
                 <br/>Ex-<span className="chonburi-font green-text">Browserstack</span>

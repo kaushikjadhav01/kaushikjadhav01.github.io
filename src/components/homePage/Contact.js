@@ -28,7 +28,7 @@ const Contact = () => {
             </h5>
             <h5 className="mb-4">
               <span className="chonburi-font green-text">Email:</span>{" "}
-              kajadhav@ncsu.edu
+              kaushikjadhav293@gmail.com
             </h5>
           </Col>
         </Row>
