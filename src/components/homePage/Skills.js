@@ -112,6 +112,10 @@ const Skills = () => {
               <br/>React
             </td>
             <td align="center" width="96" className="pt-2">
+                <img src="https://skillicons.dev/icons?i=redux" alt="icon" width="65" height="65" />
+              <br/>Redux
+            </td>
+            <td align="center" width="96" className="pt-2">
                 <img src="https://skillicons.dev/icons?i=angular" alt="icon" width="65" height="65" />
               <br/>Angular
             </td>
@@ -124,23 +128,11 @@ const Skills = () => {
               <br/>Vue.JS
             </td>
             <td align="center" width="96" className="pt-2">
-                <img src="https://skillicons.dev/icons?i=graphql" alt="icon" width="65" height="65" />
-              <br/>GraphQL
-            </td>
-            <td align="center" width="96" className="pt-2">
-                <img src="https://skillicons.dev/icons?i=threejs" alt="icon" width="65" height="65" />
-              <br/>Three.JS
-            </td>
-            </tr>
-            <tr>
-            <td align="center" width="96" className="pt-2">
-                <img src="https://skillicons.dev/icons?i=redux" alt="icon" width="65" height="65" />
-              <br/>Redux
-            </td>
-            <td align="center" width="96" className="pt-2">
                 <img src="https://skillicons.dev/icons?i=bootstrap" alt="icon" width="65" height="65" />
               <br/>Bootstrap
             </td>
+            </tr>
+            <tr>
             <td align="center" width="96" className="pt-2">
                 <img src="https://skillicons.dev/icons?i=css" alt="icon" width="65" height="65" />
               <br/>CSS
@@ -152,6 +144,14 @@ const Skills = () => {
             <td align="center"  width="96">
                 <img src="https://skillicons.dev/icons?i=tailwind" width="48" height="48" alt="HTML" />
               <br/>Tailwind
+            </td>
+            <td align="center" width="96" className="pt-2">
+                <img src="https://skillicons.dev/icons?i=graphql" alt="icon" width="65" height="65" />
+              <br/>GraphQL
+            </td>
+            <td align="center" width="96" className="pt-2">
+                <img src="https://skillicons.dev/icons?i=threejs" alt="icon" width="65" height="65" />
+              <br/>Three.JS
             </td>
             <td align="center"  width="96">
                 <img src="https://skillicons.dev/icons?i=sass" width="48" height="48" alt="HTML" />
@@ -200,12 +200,12 @@ const Skills = () => {
               <br/>Laravel
             </td>
             <td align="center" width="96" className="pt-2">
-                <img src="https://skillicons.dev/icons?i=nginx" alt="icon" width="65" height="65" />
-              <br/>Nginx
+                <img src="https://skillicons.dev/icons?i=fastapi" alt="icon" width="65" height="65" />
+              <br/>FastAPI
             </td>
             <td align="center" width="96" className="pt-2">
-                <img src="https://skillicons.dev/icons?i=redis" alt="icon" width="65" height="65" />
-              <br/>Redis
+                <img src="https://skillicons.dev/icons?i=nestjs" alt="icon" width="65" height="65" />
+              <br/>NestJS
             </td>
             <td align="center"  width="96">
                 <img src="https://skillicons.dev/icons?i=tensorflow" width="48" height="48" alt="HTML" />
@@ -222,16 +222,16 @@ const Skills = () => {
         <table className="table-dark mt-2 mb-4" width="100%">
           <tr>
             <td align="center" width="96" className="pt-2">
+                <img src="https://skillicons.dev/icons?i=mysql" alt="icon" width="65" height="65" />
+              <br/>MySQL
+            </td>
+            <td align="center" width="96" className="pt-2">
                 <img src="https://skillicons.dev/icons?i=mongodb" alt="icon" width="65" height="65" />
               <br/>MongoDB
             </td>
             <td align="center" width="96" className="pt-2">
                 <img src="https://skillicons.dev/icons?i=postgres" alt="icon" width="65" height="65" />
               <br/>PostgreSQL
-            </td>
-            <td align="center" width="96" className="pt-2">
-                <img src="https://skillicons.dev/icons?i=mysql" alt="icon" width="65" height="65" />
-              <br/>MySQL
             </td>
             <td align="center" width="96" className="pt-2">
                 <img src="https://skillicons.dev/icons?i=sqlite" alt="icon" width="65" height="65" />
@@ -242,7 +242,7 @@ const Skills = () => {
               <br/>Firebase
             </td>
             <td align="center" width="96" className="pt-2">
-                <img src="https://upload.wikimedia.org/wikipedia/de/thumb/8/8c/Microsoft_SQL_Server_Logo.svg/1200px-Microsoft_SQL_Server_Logo.svg.png" alt="icon" width="65" height="65" />
+                <img src="https://www.sqlservertutorial.net/wp-content/uploads/sql-server-tutorial.svg" alt="icon" width="65" height="65" />
               <br/>SQL Server
             </td>
             </tr>
